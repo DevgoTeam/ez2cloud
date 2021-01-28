@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Sharelabel Documentation
 
-You can use the [editor on GitHub](https://github.com/DevgoTeam/devgodocs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+> Devgo and it is Acomplished!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The documentation created for end-users should explain in the simplest way possible how the software can help solve their problems. 
+Such user instructions can be provided in the printed form, online, or offline on a device.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Table Of Content
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevgoTeam/devgodocs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. [Overview](./overview/intro.md)
+2. [Getting Start](./features/FAQs.md)
+    1. [New User](./features/FAQs.md)
+    2. [First time log in](./features/FAQs.md)
+3. [Tenant](./features/intro.md)
+4. [Create Projects](./features/intro.md)
+5. [Create Labels](./features/introduction.md)
+    1. [Features](./features/intro.md)
+    2. [Productivity](./features/intro.md)
+6. [Working with Projects](./features/intro.md)
+    1. [Assign Labels to Projects](./features/intro.md)
+    1. [Assign Users to Projects](./features/intro.md)
+7. [Create Tenant](./features/intro.md)
+    1. [Teamwork](./features/intro.md)
+      1. [Development](./features/intro.md)
+8. [Installation and configuration of the satellite server](./features/intro.md)
