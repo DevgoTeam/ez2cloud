@@ -11,4 +11,4 @@ human intervention.
 In the following sections of this documentation there are specific concepts that one will need to start and use sharelabel project.
 
 
-![Image of Sharelabelproject](https://devgoteam.github.com/devgodocs/images/overview1.png)
+![Image of Sharelabelproject](../images/overview1.png)
