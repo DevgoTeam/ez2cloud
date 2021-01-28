@@ -8,4 +8,7 @@ Most tools that is using for the copy of data must have the input in a specific 
 products can make  the difference having a file formatted and ready to be used by the automation process with the minimum 
 human intervention. 
 
-In the following sections of this documentation there are specific concepts that one will need to start and use sharelabel project.   
+In the following sections of this documentation there are specific concepts that one will need to start and use sharelabel project.
+
+
+![Image of Sharelabelproject](https://devgoteam.github.com/devgodocs/images/overview.png)
