@@ -1,4 +1,4 @@
-## Sharelabel Documentation
+## Sharelabel Project Documentation
 
 > Devgo and it is Acomplished!
 
@@ -9,12 +9,12 @@ Such user instructions can be provided in the printed form, online, or offline o
 ## Table Of Content
 
 1. [Overview](./overview/intro.md)
-2. [Getting Start](./features/FAQs.md)
-    1. [New User](./features/FAQs.md)
-    2. [First time log in](./features/FAQs.md)
-3. [Tenant](./features/intro.md)
-4. [Create Projects](./features/intro.md)
-5. [Create Labels](./features/introduction.md)
+2. [Getting Start](./gstart/intro.md)
+    1. [New User](./gstart/newuser.md)
+    2. [First time log in](./gstart/firsttimelogin.md)
+3. [Tenant](./tenant/intro.md)
+4. [Create Projects](./projects/intro.md)
+5. [Create Labels](./labels/introduction.md)
     1. [Features](./features/intro.md)
     2. [Productivity](./features/intro.md)
 6. [Working with Projects](./features/intro.md)
