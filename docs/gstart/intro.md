@@ -6,10 +6,23 @@ your subscription includes, except Sharelabel administrator features, unless you
 For more information on configuring Sharelabel see the Administrator documentation.
 
 ## Overview 
+The main goal of sharelabel it is creating all the data required to be used on a migration job from a on-premise server to a cloud service. In order to do so we rely on informaion that will be gatther from the user that actually works with the file servers contents on a company. The information generally will be napped to the matada of the files and it is  specified in terms of labels that each user can apply to a specific file or a folder and also information related with owners. To sum up the platform will presents the users some file and let them assign labels and owner that will produce metada we can later use on the migration.
 
 ## Concepts 
+To get familiar with the concepts needed to properly use Sharelabel, read the following articles:
+* [Tenant](./gstart/intro.md)
+* [Project](./gstart/intro.md)
+* [Label](./gstart/intro.md)
+* [Owner](./gstart/intro.md)
+* [Task](./gstart/intro.md)
+* [Networkshares](./gstart/intro.md)
 
-## Use cases 
+## Use cases
+Sharelabel is a platform that integrates some features to creature better solutions to migrate file servers contents:
+* [Migrate file server](./gstart/intro.md)
+* [Migrate file server to cloud](./gstart/intro.md)
+
+
 
 ## How do i 
 1. [Getting Start](./gstart/intro.md)
