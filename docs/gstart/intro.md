@@ -10,12 +10,12 @@ The main goal of sharelabel it is creating all the data required to be used on a
 
 ## Concepts 
 To get familiar with the concepts needed to properly use Sharelabel, read the following articles:
-* [Tenant](tenat.md)
+* [Tenant](tenant.md)
 * [Project](project.md)
 * [Label](label.md)
 * [Owner](owner.md)
 * [Task](task.md)
-* [Network shares](hare.md)
+* [Network shares](share.md)
 
 ## Use cases
 Sharelabel is a platform that integrates some features to creature better solutions to migrate file servers contents:

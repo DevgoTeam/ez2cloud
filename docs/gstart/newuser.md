@@ -6,4 +6,4 @@ and access to the application.
 To sign in go to the Login link and you will see the following window where you can enter your users credentials. 
 
 
-![login](./images/LoginPassword.png)
+![login](../images/LoginPassword.png)
