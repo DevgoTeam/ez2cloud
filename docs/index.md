@@ -6,7 +6,7 @@ The documentation created for end-users should explain in the simplest way possi
 Such user instructions can be provided in the printed form, online, or offline on a device.
 
 
-## Table Of Content
+## Table of Contents
 
 1. [Overview](./overview/intro.md)
 2. [Getting Start](./gstart/intro.md)
