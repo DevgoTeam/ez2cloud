@@ -18,5 +18,5 @@ In the following sections of this documentation there are specific concepts that
 
 Essential Documentation | IT Admin and Technical Documentation
 ------------ | -------------
-[User documentation](./gstart/intro.md) | Administrator documentation
-Content in the first column | Install and Configure Sattelite Server
+[User documentation](./gstart/intro.md) | [Administrator documentation](./admindocs/intro.md)
+[General concepts](./gstart/intro.md) | [Install and Configure Sattelite Server](./satserver/intro.md)
