@@ -25,13 +25,13 @@ Sharelabel is a platform that integrates some features to creature better soluti
 
 
 ## How do i 
-1. [Getting Start](./gstart/intro.md)
-     1. [New User](./gstart/newuser.md)
-     2. [First time log in](./gstart/firsttimelogin.md)
-2. [Work with Projects](./projects/intro.md)
-     1. [Assign labels information](./projects/assignlabel.md)
-     2. [Assign owners information](./projects/assignowner.md)
-3. [Account Settings](./gstart/account.md)
+1. [Getting Start](intro.md)
+     1. [New User](newuser.md)
+     2. [First time log in](firsttimelogin.md)
+2. [Work with Projects](../projects/intro.md)
+     1. [Assign labels information](../projects/assignlabel.md)
+     2. [Assign owners information](../projects/assignowner.md)
+3. [Account Settings](account.md)
 
 
 
