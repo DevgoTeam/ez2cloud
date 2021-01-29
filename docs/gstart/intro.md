@@ -15,7 +15,7 @@ To get familiar with the concepts needed to properly use Sharelabel, read the fo
 * [Label](./gstart/intro.md)
 * [Owner](./gstart/intro.md)
 * [Task](./gstart/intro.md)
-* [Networkshares](./gstart/intro.md)
+* [Network shares](./gstart/intro.md)
 
 ## Use cases
 Sharelabel is a platform that integrates some features to creature better solutions to migrate file servers contents:

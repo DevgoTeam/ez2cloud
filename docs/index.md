@@ -14,9 +14,10 @@ Most tools that is using for the copy of data must have the input in a specific 
 In the following sections of this documentation there are specific concepts that one will need to start and use sharelabel project.
 
 
-![Image of Sharelabelproject](./images/overview11.png)
-
 Essential Documentation | IT Admin and Technical Documentation
 ------------ | -------------
 [User documentation](./gstart/intro.md) | [Administrator documentation](./admindocs/intro.md)
 [General concepts](./gstart/intro.md) | [Install and Configure Sattelite Server](./satserver/intro.md)
+
+
+![Image of Sharelabelproject](./images/overview11.png)
