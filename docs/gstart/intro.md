@@ -29,9 +29,9 @@ Sharelabel is a platform that integrates some features to creature better soluti
      1. [New User](./gstart/newuser.md)
      2. [First time log in](./gstart/firsttimelogin.md)
 2. [Work with Projects](./projects/intro.md)
-     1. [Assign labels information](./features/intro.md)
-     2. [Assign owners information](./features/intro.md)
-3. [Change my account](./gstart/intro.md)
+     1. [Assign labels information](./projects/assignlabel.md)
+     2. [Assign owners information](./projects/assignowner.md)
+3. [Account Settings](./gstart/account.md)
 
 
 

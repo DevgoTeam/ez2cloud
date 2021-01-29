@@ -17,7 +17,7 @@ In the following sections of this documentation there are specific concepts that
 Essential Documentation | IT Admin and Technical Documentation
 ------------ | -------------
 [User documentation](./gstart/intro.md) | [Administrator documentation](./admindocs/intro.md)
-[General concepts](./gstart/intro.md) | [Install and Configure Sattelite Server](./satserver/intro.md)
-| [Configure SAML Authentication](./satserver/intro.md)
+[General concepts](./gstart/intro.md) | [Install and Configure Sattelite Server](./admindocs/satserver.md)
+| [Configure Identity Provider](./admindocs/identi.md)
 
 ![Image of Sharelabelproject](./images/overview11.png)
