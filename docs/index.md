@@ -14,7 +14,7 @@ Most tools that is using for the copy of data must have the input in a specific 
 In the following sections of this documentation there are specific concepts that one will need to start and use sharelabel project.
 
 
-![Image of Sharelabelproject](../images/overview1.png)
+![Image of Sharelabelproject](./images/overview1.png)
 
 Essential Documentation | IT Admin and Technical Documentation
 ------------ | -------------
