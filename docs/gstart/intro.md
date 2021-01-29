@@ -1,5 +1,24 @@
-## Getting start
+## User Docs
 
-To start using Sharelabel first you need to configure a sharelabel context for your company or 	this must be done by your IT Administrator team. 
-	
-The Sharelabel context of your company includes some configuration data that it is required to 	access and prepares the use of the product on a specific company.  in most cases it starts with 	the creation of a Tenant if you are someone who is establishing a company context. 
+Welcome to Sharebel Project! We're glad to have you here! As a Sharelabel user you have access to all the features
+your subscription includes, except Sharelabel administrator features, unless you have an admin account.
+
+For more information on configuring Sharelabel see the Administrator documentation.
+
+## Overview 
+
+## Concepts 
+
+## Use cases 
+
+## How do i 
+1. [Getting Start](./gstart/intro.md)
+     1. [New User](./gstart/newuser.md)
+     2. [First time log in](./gstart/firsttimelogin.md)
+2. [Work with Projects](./projects/intro.md)
+     1. [Assign labels information](./features/intro.md)
+     2. [Assign owners information](./features/intro.md)
+3. [Change my account](./gstart/intro.md)
+
+
+
