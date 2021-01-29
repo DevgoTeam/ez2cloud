@@ -10,17 +10,17 @@ The main goal of sharelabel it is creating all the data required to be used on a
 
 ## Concepts 
 To get familiar with the concepts needed to properly use Sharelabel, read the following articles:
-* [Tenant](./gstart/tenat.md)
-* [Project](./gstart/project.md)
-* [Label](./gstart/label.md)
-* [Owner](./gstart/owner.md)
-* [Task](./gstart/task.md)
-* [Network shares](./gstart/share.md)
+* [Tenant](tenat.md)
+* [Project](project.md)
+* [Label](label.md)
+* [Owner](owner.md)
+* [Task](task.md)
+* [Network shares](hare.md)
 
 ## Use cases
 Sharelabel is a platform that integrates some features to creature better solutions to migrate file servers contents:
-* [Migrate file server](./gstart/migrate.md)
-* [Migrate file server to cloud](./gstart/migrate2cloud.md)
+* [Migrate file server](migrate.md)
+* [Migrate file server to cloud](migrate2cloud.md)
 
 
 
