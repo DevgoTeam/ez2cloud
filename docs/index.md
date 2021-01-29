@@ -6,21 +6,11 @@ The documentation created for end-users should explain in the simplest way possi
 Such user instructions can be provided in the printed form, online, or offline on a device.
 
 
-## Table of Contents
+### Overview
 
-1. [Overview](./overview/intro.md)
-2. [Getting Start](./gstart/intro.md)
-    1. [New User](./gstart/newuser.md)
-    2. [First time log in](./gstart/firsttimelogin.md)
-3. [Tenant](./tenant/intro.md)
-4. [Projects](./projects/intro.md)
-5. [Labeling projects](./labels/introduction.md)
-    1. [Features](./features/intro.md)
-    2. [Productivity](./features/intro.md)
-6. [Working with Projects](./features/intro.md)
-    1. [Assign Labels to Projects](./features/intro.md)
-    1. [Assign Users to Projects](./features/intro.md)
-7. [Create Tenant](./features/intro.md)
-    1. [Teamwork](./features/intro.md)
-      1. [Development](./features/intro.md)
-8. [Installation and configuration of the satellite server](./features/intro.md)
+Either you are an IT expert or standard user here you will find documentation for what you need to do in order to use Sharelabel project products 
+
+Essential Documentation | Admin and Technical Documentatiom
+------------ | -------------
+.[User documentation](./gstart/intro.md) | Administrator documentation
+Content in the first column | Install and Configure Sattelite Server
