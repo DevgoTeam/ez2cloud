@@ -1,8 +1,8 @@
-## Sharelabel Project Documentation
+## Ez2Cloud Documentation
 
-> Devgo and it is Acomplished!
+> Devgo, and it is Acomplished!
 
-You will find on these pages documentation for the Sharelabel project.<br> Sharelabel it is the project codename wich the main goal is deliver products to migrate file servers content to cloud services in fast, reliable, secure and with minumum workload effort.
+You will find on these pages Ez2Cloud documentation.<br> Ez2Cloud it is a Software wich the main goal is to offer services to be used on the migration process of file servers data. With all the features allowing organize, classify and labeling file serves contents based on the metadata this is the better opttions to move servers to cloud services in fast, reliable, secure and with minumum workload effort.
 
 
 ### Overview
