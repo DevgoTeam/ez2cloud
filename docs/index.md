@@ -1,8 +1,8 @@
 ## Ez2Cloud Documentation
 
 > Devgo, and it is Acomplished!
-
-You will find on these pages Ez2Cloud documentation.<br> Ez2Cloud it is a Software wich the main goal is to offer services to be used on the migration process of file servers data. With all the features allowing organize, classify and labeling file serves contents based on the metadata this is the better opttions to move servers to cloud services in fast, reliable, secure and with minumum workload effort.
+<h2>Welcome to the Ez2Cloud support and documentation site!</h2><br>
+You will find on these pages all the documentation for Ez2Cloud, a Software which the main goal is to offer services to be used on the migration process of file servers data. With all the features allowing organize, classify and labeling file serves contents based on the metadata this is the better opttions to move servers to cloud services in fast, reliable, secure and with minumum workload effort.
 
 
 ### Overview
