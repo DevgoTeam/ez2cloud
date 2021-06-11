@@ -16,7 +16,7 @@ For more information, please see [Ez2Cloud sattelite service](sattelite.md)
 <p> When creating a project it is defined which users and labels will be available. Also there are settings like date that the projected will be archived and notification that will be fired when the project is about to be archived.</p>
 <p>The project as a base unit of work will be available and, in the context of the implemented proces,s the application front end delivers features and functionalities to end users. So all users assigned to a project after logged in can view it and completed task based on data the project have.</p>
 
-<hr width=250>
+<hr>
 
 ## Projects in Ez2Cloud
 1. [View Projects](viewprojects.md)
