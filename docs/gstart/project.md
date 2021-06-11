@@ -20,7 +20,8 @@ For more information, please see [Ez2Cloud sattelite service](sattelite.md)
 </div>
 
 ## Projects in Ez2Cloud
-1. [View Projects](viewprojects.md)
+With the context set out above, in the following sections, we presents details of specific features of the software that can be used to realize the concept of project as a base unit of collaborative work.
+1. [View Projects](../projects/viewprojects.md)
      1. [Active Projects](activeprojects.md)
      2. [Archived Projects](archivedprojects.md)
 2. [Create New Project](../projects/createnew.md)
