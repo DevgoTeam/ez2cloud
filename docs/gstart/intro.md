@@ -12,7 +12,7 @@ For specific information on configuring Ez2Cloud see the Administrator documenta
 
 
 ## Concepts 
-<div>
+
 To get familiar with the concepts needed to properly use Sharelabel, read the following articles:
 * [Tenant](tenant.md)
 * [Project](project.md)
@@ -22,7 +22,7 @@ To get familiar with the concepts needed to properly use Sharelabel, read the fo
 * [Network shares](share.md)
 
 ## Use cases
-<div>
+
 Sharelabel is a platform that integrates some features to creature better solutions to migrate file servers contents:
 * [Migrate file server](migrate.md)
 * [Migrate file server to cloud](migrate2cloud.md)
@@ -30,7 +30,7 @@ Sharelabel is a platform that integrates some features to creature better soluti
 
 
 ## How do i 
-<div>
+
 1. [Getting Start](intro.md)
      1. [New User](newuser.md)
      2. [First time log in](firsttimelogin.md)
@@ -39,5 +39,5 @@ Sharelabel is a platform that integrates some features to creature better soluti
      2. [Assign owners information](../projects/assignowner.md)
 3. [Account Settings](account.md)
 
-
+</div>
 
