@@ -21,6 +21,7 @@ To get familiar with the concepts needed to properly use Sharelabel, read the fo
 * [Task](task.md)
 * [Network shares](share.md)
 </div>
+
 ## Use cases
 
 Sharelabel is a platform that integrates some features to creature better solutions to migrate file servers contents:
