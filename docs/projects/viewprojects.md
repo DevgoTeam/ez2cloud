@@ -10,3 +10,8 @@ After log in a user see the main Ez2Cloud window showing all the projects the us
 
 Also on top right corner, on mouse over it is shown a ballon with the project expiration date.
 
+![Image of Sharelabelproject](../images/projects1.png)
+
+This image above is showing the projects and it is possible to navigate to Archived project where the main content area will display all the projects the user it is assigned but are was already archived.
+
+It is important to note that the projects a user will view are the ones was previously assigned by a Administrator ou Project Administrator user.
