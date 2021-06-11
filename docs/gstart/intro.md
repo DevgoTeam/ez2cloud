@@ -11,7 +11,7 @@ The main goal of Ez2Cloud it is provides functionalities and features that allow
 These data will be mapped to files matada, allowing each user to apply to files amd folders labels. To sum up the platform will presents the users some file and let them assign labels, owners and with all the data gather and processed later on an authorized user can create and export a file with items that will be the source data for the migration.
 
 
-## Concepts 
+## Concepts
 
 To get familiar with the concepts needed to properly use Sharelabel, read the following articles:
 * [Tenant](tenant.md)
@@ -29,7 +29,7 @@ Sharelabel is a platform that integrates some features to creature better soluti
 
 
 
-## How do i 
+## How do i
 
 1. [Getting Start](intro.md)
      1. [New User](newuser.md)
