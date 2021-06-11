@@ -9,19 +9,20 @@ Project it is the unit of data that users will work in a distrubted and colabora
 
 <p>As represented on Ez2Cloud, a project gets files and folders metada from a company file server. This process is performed by a component of Ez2Cloud that will be run on on-premise server named Ez2Cloud sattelite service.</p>
 </div>
+
 For more information, please see [Ez2Cloud sattelite service](sattelite.md)
 
 <div style='text-align: justify;'>
-<p>When creating a project it is defined which users and labels will be available. Also there are settings like date that the projected will be archived and notification that will be fired when the project is about to be archived.</p>
+<p> When creating a project it is defined which users and labels will be available. Also there are settings like date that the projected will be archived and notification that will be fired when the project is about to be archived.</p>
+<p>The project as a base unit of work will be available and, in the context of the implemented proces,s the application front end delivers features and functionalities to end users. So all users assigned to a project after logged in can view it and completed task based on data the project have.</p>
 
-<p>All this information tor will become accessible in the application's front end for the end users.If the administrator creates a project and assign no users for it, the users won't be able to see this project when they login to their account in the application.</p>
-</div>
+<hr width=250>
 
-
-## WorkingwithProjects
-
-* [Create new Project](sattelite.md)
-* [Upload Metada to Project](sattelite.md)
-* [Edit Project](sattelite.md)
-* [Projects on File Explorer](sattelite.md)
-
+## Projects in Ez2Cloud
+1. [View Projects](viewprojects.md)
+     1. [Active Projects](activeprojects.md)
+     2. [Archived Projects](archivedprojects.md)
+2. [Create New Project](../projects/createnew.md)
+     1. [Assign labels information](../projects/assignlabel.md)
+     2. [Assign owners information](../projects/assignowner.md)
+3. [Colaborative Work in Projects](../projects/colaborative.md)
