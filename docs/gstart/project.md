@@ -17,5 +17,13 @@ For more information, please see [Ez2Cloud sattelite service](sattelite.md)
 <p>The project as a base unit of work will be available and, in the context of the implemented proces,s the application front end delivers features and functionalities to end users. So all users assigned to a project after logged in can view it and completed task based on data the project have.</p>
 
 <hr>
+</div>
 
 ## Projects in Ez2Cloud
+1. [View Projects](viewprojects.md)
+     1. [Active Projects](activeprojects.md)
+     2. [Archived Projects](archivedprojects.md)
+2. [Create New Project](../projects/createnew.md)
+     1. [Assign labels information](../projects/assignlabel.md)
+     2. [Assign owners information](../projects/assignowner.md)
+3. [Colaborative Work in Projects](../projects/colaborative.md)
