@@ -1,5 +1,5 @@
 ## Project
-
+<div style='text-align: justify;'> 
 We use the term project to define the files and folders you will have on a specific local network path.
 
 When the administrator adds a project, it is necessary to provide a name, description, and the local network path to it.
@@ -17,3 +17,4 @@ The following figure illustrate the way you will create projects:
 And this figure shows how the projects you created will appear for the end users you assign:
 
 ![Projects overview](../images/projects1.png)
+</div>
