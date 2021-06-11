@@ -8,3 +8,5 @@ After log in a user see the main Ez2Cloud window showing all the projects the us
 ![Image of Sharelabelproject](../images/ProjectImage.png)
 
 
+Also on top right corner, on mouse over it is shown a ballon with the project expiration date.
+
