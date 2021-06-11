@@ -11,4 +11,3 @@ It is mandatory that you create a Tenant, or in other words register your organi
 
 See on the following image what is needed to create a Tenant:
 
-![Image of how to create a tenant](../images/TenantConcept.png)
