@@ -7,9 +7,10 @@ Imagine the tenant name we are picking is "yourexample". The following DNS entry
 
 <p>- yourorganization.devgo.org</p>
 
-<p>It is mandatory that you create a Tenant, or in other words register your organization into our platform in order to start using Ez2Cloud software.</p>
+<p>It is mandatory that you create a Tenant, or in other words register your organization into our platform in order to start using Ez2Cloud software
+</p>
 
-The Tenant should be created with a valid email of the organization and the data provideded will be used to triger que initial configuration for a company that wish to use Ez2Cloud. </p>
+<p>Tenant should be created with a valid email of the organization and the data provideded will be used to triger que initial configuration for a company that wish to use Ez2Cloud. Associated with the tenant the company can have  Admin account, and create their users, projects and start working. </p>
 </div>
 
 ![Image of how to create a tenant](../images/TenantConcept.png)
