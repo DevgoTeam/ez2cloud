@@ -1,12 +1,15 @@
 ## User Docs
 
-Welcome to Sharebel Project! We're glad to have you here! As a Sharelabel user you have access to all the features
-your subscription includes, except Sharelabel administrator features, unless you have an admin account.
+Welcome to Ez2Cloud! We're glad to have you here! As a Ez2Cloud user you have access to all the features
+your subscription includes, except Ez2Cloud administrator features, unless you have an admin account.
 
-For more information on configuring Sharelabel see the Administrator documentation.
+For specific information on configuring Ez2Cloud see the Administrator documentation.
 
-## Overview 
-The main goal of sharelabel it is creating all the data required to be used on a migration job from a on-premise server to a cloud service. In order to do so we rely on informaion that will be gatther from the user that actually works with the file servers contents on a company. The information generally will be napped to the matada of the files and it is  specified in terms of labels that each user can apply to a specific file or a folder and also information related with owners. To sum up the platform will presents the users some file and let them assign labels and owner that will produce metada we can later use on the migration.
+## Overview
+<div style='text-align: justify;'>  
+<p>The main goal of Ez2Cloud it is provides functionalities and features that allows you define and apply all the data required to be used on a migration job from on server to another, including moving data from an on-premise server to a cloud service. To achieve this goal Ez2Cloud relies in processs to gather, process and produce information related with a network shared folder. Specifically the data that will be gatther from the users that actually works with the file servers contents on a company in a distrubted and colaborative approach. 
+<p>These data will be mapped to files matada, allowing each user to apply to files amd folders labels. To sum up the platform will presents the users some file and let them assign labels, owners and with all the data gather and processed later on an authorized user can create and export a file with items that will be the source data for the migration.
+</div>
 
 ## Concepts 
 To get familiar with the concepts needed to properly use Sharelabel, read the following articles:
