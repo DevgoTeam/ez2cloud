@@ -19,10 +19,3 @@ For more information, please see [Ez2Cloud sattelite service](sattelite.md)
 <hr>
 
 ## Projects in Ez2Cloud
-1. [View Projects](viewprojects.md)
-     1. [Active Projects](activeprojects.md)
-     2. [Archived Projects](archivedprojects.md)
-2. [Create New Project](../projects/createnew.md)
-     1. [Assign labels information](../projects/assignlabel.md)
-     2. [Assign owners information](../projects/assignowner.md)
-3. [Colaborative Work in Projects](../projects/colaborative.md)
