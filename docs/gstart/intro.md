@@ -1,4 +1,3 @@
-
 ## User Docs
 
 Welcome to Ez2Cloud! We're glad to have you here! As a Ez2Cloud user you have access to all the features
