@@ -9,9 +9,7 @@ Imagine the tenant name we are picking is "yourexample". The following DNS entry
 
 It is mandatory that you create a Tenant, or in other words register your organization into our platform in order to start using Ez2Cloud software.
 
-See on the following image what is needed to create a Tenant:
-
-![Image of how to create a tenant](../images/TenantConcept.png)
-
 The Tenant should be created with a valid email of the organization and the data provideded will be used to triger que initial configuration for a company that wish to use Ez2Cloud. 
 </div>
+
+![Image of how to create a tenant](../images/TenantConcept.png)
