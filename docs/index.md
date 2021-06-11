@@ -14,7 +14,7 @@ Ez2Cloud was designed and implemented to address these issues. It is possible to
 
 All the configurations task, settings definitions, customizations and requirements to fulfil before use E2Cloud on your company will be the content of the following sections. Follow the links and you can access to specific concepts that one will need to get up and running with Ez2Cloud.
 </div>
-<div>
+<hr>
 Essential Documentation | IT Admin and Technical Documentation
 ------------ | -------------
 [User documentation](./gstart/intro.md) | [Administrator documentation](./admindocs/intro.md)
@@ -22,4 +22,3 @@ Essential Documentation | IT Admin and Technical Documentation
 | [Configure Identity Provider](./admindocs/identi.md)
 
 ![Image of Sharelabelproject](./images/overview11.png)
-</div>
