@@ -3,7 +3,6 @@
 EZ2Cloud is a cloud-based software, developed by DevGo, to provide a solution to inventory and labeling folders and files stored on the company files server. Here you will find all Software documentation. <br>
 <p>Ez2Cloud it is a software which the main goal is provide support tools be used on File Servers data migration process. With all the features allowing organize, classify and labeling file serves network shares contents based on the metadata for files and folders this is the better option to move on-premise servers contents to a cloud service in fast, reliable, secure and with minimum workload effort.</p>
 
-
 ### Overview
 <div style='text-align: justify;'> 
 <p>We are seeking to deliver support tools that allow a smooth transition between on-premises network file servers to cloud. The main issue with this transition on most companies it is guarantee the use of automation tools to copy data volumes with less human intervention as possible. To do so, it is mandatory to maintain the data files but also all the metadata.</p>
