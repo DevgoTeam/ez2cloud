@@ -7,15 +7,15 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Newuser - Ez2Cloud Docs</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Index - Ez2Cloud Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
 
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -23,7 +23,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="../../index.html">Ez2Cloud Docs</a>
+                <a class="navbar-brand" href="../index.html">Ez2Cloud Docs</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,18 +34,18 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="../../index.html" class="nav-link">Home</a>
+                                <a href="../index.html" class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Essentials Documentation <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../index.html" class="dropdown-item">End-user</a>
+    <a href="../Essentials/index.html" class="dropdown-item">End-user</a>
 </li>
                                     
 <li>
-    <a href="../Concepts/index.html" class="dropdown-item">Entities and Concepts</a>
+    <a href="../Essentials/Concepts/index.html" class="dropdown-item">Entities and Concepts</a>
 </li>
                                 </ul>
                             </li>
@@ -54,11 +54,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../ITAdmin/index.html" class="dropdown-item">Admin Docs</a>
+    <a href="../ITAdmin/index.html" class="dropdown-item">Admin Docs</a>
 </li>
                                     
 <li>
-    <a href="../../ITAdmin/satserver.html" class="dropdown-item">Initial Setup</a>
+    <a href="../ITAdmin/satserver.html" class="dropdown-item">Initial Setup</a>
 </li>
                                 </ul>
                             </li>
@@ -88,7 +88,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#new-users" class="nav-link">New users</a>
+            <li class="nav-item" data-level="2"><a href="#mobile-devices-features" class="nav-link">Mobile Devices Features</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -97,17 +102,22 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p><img alt="Logo Ez2cloud" src="../../images/ez2cloud2.png" /></p>
+<p><img alt="Logo Ez2cloud" src="../images/ez2cloud2.png" /></p>
 <hr>
 
-<h2 id="new-users">New users</h2>
+<h2 id="mobile-devices-features">Mobile Devices Features</h2>
+<p>Welcome to Ez2Cloud. We're glad to have you here. As a Ez2Cloud end-user you have access to all the features
+your subscription includes, except Ez2Cloud administrator features. Of course these features are restricted for a user as member of an admin account.</p>
+<p>For specific information on configuring Ez2Cloud see the Administrator documentation.</p>
+<h2 id="overview">Overview</h2>
 <div style='text-align: justify;'> 
-<p>To login you must first have a valid user and a password. Also your user must already have a configuration on how the authentication will be processed.This must be previouwsly be done by a user with an Administrator role. So if you don't have a user name and the authentication options defined please contact your IT support team. </p>
+<p>The functionalities and features you will find on these pages are related with the main goal of Ez2Cloud: provides a colaborative and distribuited platform that allows you define and apply all the elements required on a migration job from on server to another or from an on-premise server to a cloud service.</p> 
+<p>To achieve this goal, Ez2Cloud relies in gathering data and produce information related with metada from files and folders located on a server network shared folder. Specifically the data that will be gatther from the users that actually works with the file servers contents in a distrubted and colaborative approach.</p>
+<p>The metadata gather from server will be mapped to entities representing files and folders on Ez2cloud, allowing each user to apply to files amd folders some labels. To sum up the platform will presents the users some file and let them assign labels, owners and with all the data gather and processed later on an authorized user can create and export a file with items that will be the source data for the migration.</p>
 
-<p>The new users are configured and you will receive an e-mail message containing an Ez2Cloud invitation. In order to activate a new user you must follow the link and the instructions on the e-mail content. 
+</div>
 
-
-![login](../images/LoginPassword.png)</div>
+<p>Following, you can direct access to links and learn how to use features to quickly get your work done. These links are all related with features that are commonly used by users in general. To have specifics details on how to use features for user belonging to roles Project Administrator and Label Administrator please refer to </p></div>
             </div>
         </div>
 
@@ -116,11 +126,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "../..",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
