@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Admin Docs - Ez2Cloud Docs</title>
+        <title>actionsOnUsers - Ez2Cloud Docs</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -49,12 +49,12 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">IT Admin and Tech Docs <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="index.html" class="dropdown-item active">Admin Docs</a>
+    <a href="index.html" class="dropdown-item">Admin Docs</a>
 </li>
                                     
 <li>
@@ -70,16 +70,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../Essentials/Concepts/index.html" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -209,8 +199,33 @@ The actual configuration will begin by creating and defining all items that will
 
 <p><img alt="Image of Sharelabelproject" src="images/ManageUserControl.png" /></p>
 <ol>
-<li><a href=".actionsOnUsers.md">Actions On Users</a>     </li>
-<li><a href="./importUsers.md">Import Users</a></li>
+<li>
+<p>Actions On Users:</p>
+<ul>
+<li>
+<p><strong>Add User</strong> - Local users can be added one at a time by fill the fields showed in the following image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserAdd.png">. An email will be sent to the email address that was provided and after that a user can login.</p>
+</li>
+<li>
+<p><strong>Edit User</strong> - Local users can be Edit to change a User account. A user with the Role Administrator can change the values of the Users account, filling values in the fields as show in the form on the image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserEdit.png">. It is not possible to change email address. </p>
+</li>
+<li>
+<p><strong>Disable User</strong> - From the user table select rows that represents the ones you wnat to disable and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonDisable.png">. You will see the following dialog 
+  <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisable.png"> where you must confirm to disable user. If you select multiple users the confirmation dialog will be show all the users selected 
+ <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisableMulti.png"></p>
+</li>
+<li>
+<p><strong>Reset Password</strong> - From the user table select rows that represents the ones you wnat to reset password and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonReset.png">. You will see the following dialog 
+  <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserReset.png"> where you must confirm the reset user operation. If you select multiple users the confirmation dialog will be show all the users selected 
+ <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserResetMulti.png"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>[Import Users]</p>
+<ul>
+<li><a href="./CommonFeatures/newuser.md">Add User</a></li>
+</ul>
+</li>
 </ol>
 <h2 id="satelite-servers">Satelite Servers</h2>
 <h2 id="labels">Labels</h2>
