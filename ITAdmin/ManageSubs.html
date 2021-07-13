@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Admin Docs - Ez2Cloud Docs</title>
+        <title>ManageSubs - Ez2Cloud Docs</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -49,12 +49,12 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">IT Admin and Tech Docs <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="index.html" class="dropdown-item active">Admin Docs</a>
+    <a href="index.html" class="dropdown-item">Admin Docs</a>
 </li>
                                     
 <li>
@@ -70,16 +70,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../Essentials/Concepts/index.html" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -98,62 +88,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#admin-guide-reference-for-administrators" class="nav-link">Admin Guide: Reference for Administrators</a>
+            <li class="nav-item" data-level="2"><a href="#local-user-managment" class="nav-link">Local User Managment</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#ez2cloud-dashboard" class="nav-link">Ez2Cloud Dashboard</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#initial-configurations" class="nav-link">Initial Configurations</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#user-managment" class="nav-link">User Managment</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#satelite-servers" class="nav-link">Satelite Servers</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#labels" class="nav-link">Labels</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#projects" class="nav-link">Projects</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#costumizing" class="nav-link">Costumizing</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#authentication" class="nav-link">Authentication</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#subscription-plans" class="nav-link">Subscription Plans</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#troubleshooting" class="nav-link">Troubleshooting</a>
+            <li class="nav-item" data-level="2"><a href="#action-on-users" class="nav-link">Action on users</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -165,63 +105,29 @@
 <p><img alt="Logo Ez2cloud" src="../images/ez2cloud2.png" /></p>
 <hr>
 
-<h2 id="admin-guide-reference-for-administrators">Admin Guide: Reference for Administrators</h2>
+<h2 id="local-user-managment">Local User Managment</h2>
 <div style='text-align: justify;'> 
 <p>
-Welcome to Ez2Cloud Admin Guide. Here you will find specific information on configuring Ez2Cloud and set all that is required to get your users onboard.
-
-If you want to, please refer to Entities and Concepts where you can find more details about Ez2Cloud [Entities and Concepts Details](.Essentials/Concepts/index.md)  used on this Guide. 
+The following section describe action to be performed on a single on a limited group of users. It is best suited to small group of users. 
 </p>
 </div>
-
-<h2 id="overview">Overview</h2>
-<div style='text-align: justify;'> 
-<p>
-Ez2Cloud provides a Collaborative work approach to allow users from a company business unit to enhance information on a shared network folder content. The enhanced information is representing as semantic label or ownership label. So Ez2Cloud will work with the metadata gathered from a File Server and upon that users can add Semantic Labels and Ownership Labels accordingly the real usage of the File Server at a given time. 
-This approach will work with Projects, Labels, Users, Satellite Service and other components that a user with an Administrator Role must first setting and configuring for company. 
-</p>
-</div>
-
-<h2 id="ez2cloud-dashboard">Ez2Cloud Dashboard</h2>
-<div style='text-align: justify;'> 
-<p>Here any user with the Administrator Role have an overview of the main Tenant area in Ez2Cloud. Namely information about Tenant identification, Projects that has been created and information about users, labels, Sattelite server and their status. Also it will be shown the current data related with which plan the Tenant has. If the Tenant has a non free plan, it is also shown information about the payment.</p>
-</div>
-
-<p><img alt="Image of Sharelabelproject" src="images/Dashboard.png" /></p>
-<h2 id="initial-configurations">Initial Configurations</h2>
-<p>The configuration needed to be done in order to allow users to access the Ez2Cloud started after a Tenant is created. To see more details on how to create a Tenant please refer to <a href="../Essentials/Concepts/tenant.html">Create Tenant</a></p>
-<div style='text-align: justify;'>
-<p>
-The actual configuration will begin by creating and defining all items that will be used to represents Ez2Cloud users and other Ez2Cloud entities and concepts. 
-</p>
-</div>
-
-<h2 id="user-managment"><a href="ManageUsers.html">User Managment</a></h2>
-<div style='text-align: justify;'>
-<p>User managment it is one of the mandatory configuration that is required as one of the primary task to be completed. Users account and their information will have a double perspective in Ez2Cloud. Indeed, user account are used in the authentication process and also to implement the Ownership Label concept. </p>
-<p>All the functionalities needed to manage user will be available under the User Managment Menu. After click in Users Menu the User Management View will be shown as the following image:</p>
-</div>
-
-<p><img alt="Image of Sharelabelproject" src="../images/admin/1.png" /></p>
-<div style='text-align: justify;'>
-<p>At the top of the User Management View there are multiple button that allows manage users: add, edit, disable, search users. Next you'll find more details on each of the available action. Note that these users are users managed by Ez2Cloud. In later version you can use users managed by Third part servies such On-premise AD ou Azure AD. </p>
-</div>
-
+<p>All the local users accounts information are presented in a table as shown in the follwing image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/UsersManagmentTable.png">. The information can be ordered by the fields: First Name, Last Name, email. And also the information showed in the table can be filtered by Departament, Role and Stauts by click in the name field at the Table Header. 
+Also you can navigate to different pages by click in one this arrows <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonNav.png"></p>
+<h2 id="action-on-users">Action on users</h2>
 <p><img alt="Image of Sharelabelproject" src="images/ManageUserControl.png" /></p>
 <ol>
-<li><a href="actionsOnUsers.html"><strong>Actions On Users</strong></a>     </li>
-<li><a href="ImportUsers.html"><strong>Import Users</strong></a></li>
-</ol>
-<h2 id="satelite-servers">Satelite Servers</h2>
-<h2 id="labels">Labels</h2>
-<p><img alt="Image of Sharelabelproject" src="images/ManagLabels.png" /></p>
-<h2 id="projects">Projects</h2>
-<p><img alt="Image of Sharelabelproject" src="images/ManagProjects.png" /></p>
-<h2 id="costumizing">Costumizing</h2>
-<p><img alt="Image of Sharelabelproject" src="images/CorporateIdent.png" /></p>
-<h2 id="authentication">Authentication</h2>
-<h2 id="subscription-plans">Subscription Plans</h2>
-<h2 id="troubleshooting">Troubleshooting</h2></div>
+<li><strong>Add User</strong> - <p>Local users can be added one at a time by fill the fields showed in the following image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserAdd.png">. An email will be sent to the email address that was provided and after that a user can login.</p></li>
+<li><strong>Edit User</strong> - <p>Local users can be Edit to change a User account. A user with the Role Administrator can change the values of the Users account, filling values in the fields as show in the form on the image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserEdit.png">. It is not possible to change email address. </p></li>
+<li>
+<p><strong>Disable User</strong> - <p>From the user table select rows that represents the ones you wnat to disable and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonDisable.png">. You will see the following dialog 
+<img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisable.png"> where you must confirm to disable user. If you select multiple users the confirmation dialog will be show all the users selected <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisableMulti.png"></p></p>
+</li>
+<li>
+<p><strong>Reset Password</strong> - <p>From the user table select rows that represents the ones you wnat to reset password and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonReset.png">. You will see the following dialog 
+  <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserReset.png"> where you must confirm the reset user operation. If you select multiple users the confirmation dialog will be show all the users selected 
+     <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserResetMulti.png"></p></p>
+</li>
+</ol></div>
             </div>
         </div>
 
