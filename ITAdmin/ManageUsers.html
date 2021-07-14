@@ -97,6 +97,26 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            
+            <li class="nav-item" data-level="2"><a href="#action-on-users" class="nav-link">Action on users</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#import-users" class="nav-link">Import Users</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#users-roles" class="nav-link">Users Roles</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#externally-authenticated-users" class="nav-link">Externally authenticated users</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
@@ -129,27 +149,28 @@ Also you can navigate to different pages by click in one this arrows <img style=
 <div style='text-align: justify;'> 
 <p>
 The local users have a status that refers to the current state of the user regarding Ez2Cloud Plataform. So when a user is created it has a status Invitation Sent represeted in the table by the icon <img src="./images/UserPending.png">. After the user accepts the invitation and actually set up the account the status pass to active represented with a <img src="./images/UserActive.png">. Users can also be disable and the status pass to Inactive represented with <img src="./images/ManageUserDisable.png">
+</p>
+</div>
 
-## Action on users
-
-![Image of Sharelabelproject](./images/ManageUserControl.png)
-
-1. **To Add User** ![Image of Sharelabelproject](./images/ButtonAdd.png) <p>Local users can be added one at a time by fill the fields showed in the following image. <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserAdd.png"></p><p>An invititation will be sent to the provided email address. In order to login the user must proceed to Ez2Cloud follow the invitation link embeded in the message and set his password and other provied other information that will be requested.</p>
-2. **To Edit User** ![Image of Sharelabelproject](./images/ButtonEdit.png) <p>Local users can be Edit to change a User account. A user with the Role Administrator can change the values of the Users account, filling values in the fields as show in the form on the image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserEdit.png">. It is not possible to change email address. </p>
-3. **To Disable User** ![Image of Sharelabelproject](./images/ButtonDisable.png) <p>From the user table select rows that represents the ones you wnat to disable and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonDisable.png">. You will see the following dialog 
-<img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisable.png"> where you must confirm to disable user. If you select multiple users the confirmation dialog will be show all the users selected <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisableMulti.png"></p>
-
-4. **To Reset Password** ![Image of Sharelabelproject](./images/ButtonReset.png) <p>From the user table select rows that represents the ones you wnat to reset password and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonReset.png">. You will see the following dialog 
+<h2 id="action-on-users">Action on users</h2>
+<p><img alt="Image of Sharelabelproject" src="images/ManageUserControl.png" /></p>
+<ol>
+<li><strong>To Add User</strong> <img alt="Image of Sharelabelproject" src="images/ButtonAdd.png" /> <p>Local users can be added one at a time by fill the fields showed in the following image. <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserAdd.png"></p><p>An invititation will be sent to the provided email address. In order to login the user must proceed to Ez2Cloud follow the invitation link embeded in the message and set his password and other provied other information that will be requested.</p></li>
+<li><strong>To Edit User</strong> <img alt="Image of Sharelabelproject" src="images/ButtonEdit.png" /> <p>Local users can be Edit to change a User account. A user with the Role Administrator can change the values of the Users account, filling values in the fields as show in the form on the image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserEdit.png">. It is not possible to change email address. </p></li>
+<li>
+<p><strong>To Disable User</strong> <img alt="Image of Sharelabelproject" src="images/ButtonDisable.png" /> <p>From the user table select rows that represents the ones you wnat to disable and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonDisable.png">. You will see the following dialog 
+<img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisable.png"> where you must confirm to disable user. If you select multiple users the confirmation dialog will be show all the users selected <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisableMulti.png"></p></p>
+</li>
+<li>
+<p><strong>To Reset Password</strong> <img alt="Image of Sharelabelproject" src="images/ButtonReset.png" /> <p>From the user table select rows that represents the ones you wnat to reset password and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonReset.png">. You will see the following dialog 
   <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserReset.png"> where you must confirm the reset user operation. If you select multiple users the confirmation dialog will be show all the users selected 
-     <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserResetMulti.png"></p>
-
-
-## Import Users
-
-## Users Roles 
-![Image of Sharelabelproject](../images/admin/5.png) 
-
-## Externally authenticated users</div>
+     <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserResetMulti.png"></p></p>
+</li>
+</ol>
+<h2 id="import-users">Import Users</h2>
+<h2 id="users-roles">Users Roles</h2>
+<p><img alt="Image of Sharelabelproject" src="../images/admin/5.png" /> </p>
+<h2 id="externally-authenticated-users">Externally authenticated users</h2></div>
             </div>
         </div>
 
