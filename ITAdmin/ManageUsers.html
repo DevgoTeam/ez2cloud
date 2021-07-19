@@ -107,16 +107,6 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="2"><a href="#users-roles" class="nav-link">Users Roles</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#externally-authenticated-users" class="nav-link">Externally authenticated users</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
         </ul>
     </div>
 </div></div>
@@ -181,15 +171,22 @@ The local users have a status that refers to the current state of the user regar
 <div style='text-align: justify;'> 
 <p>This is functionality to create users as a bulk process. Instead of creating users one each time the users are imported from a CSV file. The process only requires that you have a CSV file with all the data needed. For each user you want to create a line with the fields firstName, lastName, email and department separted by comma. </p>
 <p>To start import user click on the button <img style="border: 1px solid black" src="./images/ButtonImport.png">. You will see the initial modal dialog Import user data, as the follwing image</p><img  style="margin-top:10px;margin-bottom:10px;padding: 10px;border: 1px solid black" src="./images/ImportUsers1.png">
-<p>First you need to select the file containing the users data. Click the Browse button or just drag and drop the file this <img style="border: 1px solid black" src="./images/DragArea.png">area. </p>
+<p>First you need to select the file containing the users data. Click the Browse button or just drag and drop the file this <img style="border: 1px solid black" src="./images/DragArea.png"> area. </p>
 <p>Click the button Next you will view the window where you must select the roles all imported users will have. See the image bellow. At the rigth side the roles selected or the roles that all the users will have. At the left side the list of all roles. After select the roles and click Next you will view a summary of all the users that was read from file as show in the following image. 
 <p>To confirm the user data and create the users just click on Sent Invitation button. </p> <img style="margin-top:10px;margin-bottom:10px;padding: 10px; border: 1px solid black" src="./images/ImportUsers5.png"></p>
-
 </div>
 
-<h2 id="users-roles">Users Roles</h2>
-<p><img alt="Image of Sharelabelproject" src="../images/admin/5.png" /> </p>
-<h2 id="externally-authenticated-users">Externally authenticated users</h2></div>
+<h3 id="actions-in-import-users-process">Actions in Import Users Process</h3>
+<div style='text-align: justify;'> 
+1. Multiple file to import - It is possible to import as much users from file you want in the same file or separated by different files. 
+2. Users will have the same Role - At the step of select Roles of the import users process the selected roles will be applied to all users on the file.
+3. An Invitation is sent - An email is send to the email address of each user on the file, the created account has Pending status. The Users will stay in Pending status until the account is actually confirmed. 
+4. Users limit - The limit of users is defined by the Tenant plan. 
+
+## Users Roles 
+![Image of Sharelabelproject](../images/admin/5.png) 
+
+## Externally authenticated users</div>
             </div>
         </div>
 
