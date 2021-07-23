@@ -201,7 +201,11 @@ After successfully executing the above tasks, you should see a confirmation wind
 </p>
 </div>
 <div style='text-align: justify;'> 
-<p>and every hour it will again analyze the project's network folder structure. If there are any changes, they are handled in a process called EZ2Cloud project csynchronization. All data that has already been referred to Last Connection, Status, Reports and that is kept for each satellite server is always updated whenever there is synchronization.</div>
+<p>After closing the configuration window, EZ2Cloud Sattelite Service will start as a Windows Service named EZ2Cloud Sattelite. And the Service will be running with the main goal of after detect any changes on the file structure of a project folder executing the steps to update the metada on EZ2Cloud.</p> 
+<p>
+Hourly, the service analyzes the network folder structure defined in the projects the sattelite server is bounded checking for any change. If there is, the task of updating the metadata is launched, which is called EZ2Cloud Project Synchronization. All data that has already been referred as such Last Connection, Status, Reports and that is kept for each satellite server is always updated whenever there is synchronization.
+</p>
+</div></div>
             </div>
         </div>
 
