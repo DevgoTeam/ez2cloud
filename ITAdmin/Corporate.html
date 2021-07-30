@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>EZ2Cloud Docs</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Corporate - EZ2Cloud Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/color-brewer.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">EZ2Cloud Docs</a>
+                <a class="navbar-brand" href="../index.html">EZ2Cloud Docs</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,19 +33,19 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="index.html" class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href="../index.html" class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Essentials Documentation <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="Essentials/index.html" class="dropdown-item">End-user</a>
+    <a href="../Essentials/index.html" class="dropdown-item">End-user</a>
 </li>
                                     
 <li>
-    <a href="Essentials/Concepts/index.html" class="dropdown-item">Entities and Concepts</a>
+    <a href="../Essentials/Concepts/index.html" class="dropdown-item">Entities and Concepts</a>
 </li>
                                 </ul>
                             </li>
@@ -54,11 +54,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="ITAdmin/index.html" class="dropdown-item">Admin Docs</a>
+    <a href="index.html" class="dropdown-item">Admin Docs</a>
 </li>
                                     
 <li>
-    <a href="ITAdmin/satserver.md" class="dropdown-item">Initial Setup</a>
+    <a href="satserver.md" class="dropdown-item">Initial Setup</a>
 </li>
                                 </ul>
                             </li>
@@ -70,16 +70,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="Essentials/index.html" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -98,17 +88,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#ez2cloud-software-documentation" class="nav-link">EZ2Cloud Software Documentation</a>
+            <li class="nav-item" data-level="2"><a href="#local-user-managment" class="nav-link">Local User Managment</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#contents" class="nav-link">Contents</a>
+            <li class="nav-item" data-level="2"><a href="#action-on-users" class="nav-link">Action on users</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -117,54 +102,32 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p><img alt="Logo Devgo" src="images/DevgoLogo.png" />&nbsp;&nbsp;&nbsp;<img alt="Logo EZ2Cloud" src="images/ez2cloud2.png" /></p>
-<blockquote>
-<p>Devgo, and it is Acomplished!</p>
-</blockquote>
+<p><img alt="Logo EZ2Cloud" src="../images/ez2cloud2.png" /></p>
 <hr>
 
-<h2 id="ez2cloud-software-documentation">EZ2Cloud Software Documentation</h2>
-<hr>
-<p>EZ2Cloud is a cloud-based software, developed by DevGo, to provide an inventory and classification solution upon the file structure of an on-premise network shared folder. The goal is to automate a meta data extraction procedure to be used as input of a migration process from one file server to another. The software support different migrations aproach but mainly EZ2Cloud provides all you need to migrate from a on-premise service to a server based in a cloud plaform. Here you will find all Software documentation and detailed information on use and configuration required.  <br></p>
-<p>The software main goal is to provide support tools to be used on File Servers data migration process. With all the features allowing organize, classify and labeling file serves network shares contents based on the metadata for files and folders this is the better option to move on-premise servers contents to a cloud service in fast, reliable, secure and with minimum workload effort.</p>
-
-<h2 id="overview">Overview</h2>
+<h2 id="local-user-managment">Local User Managment</h2>
 <div style='text-align: justify;'> 
-<p>We want to deliver support tools that allow a smooth transition between on-premises network file servers to cloud. The main issue with this transition on most companies is using the current available automation tools to copy data volumes still needs a lot of human and hands tasks. We aim to bring to the mininum as possible the needed task and let the automation tools works as smooth as possible.</p>
-
-<p>Most tools used for data copy must have the input in a specific format, but theirs is no means that allows one to create an underlined structured of the data from a company organization view, identify orphan data or set data ownership in an end-user friendly approach. 
-EZ2Cloud was designed and implemented to address these issues. It is possible to export from EZ2Cloud a file formatted and ready to be used by an automation process with the minimum human intervention. Different from existing solutions on this, EZ2Cloud will allow you to include metadata and so set a clear and concise view of structure, ownership and custom labels you want to apply to a shared network data on a file server.</p>
-
-<p>All the configurations tasks, settings definitions, customizations and requirements to complete before running E2Cloud on your company will be the content of the following sections. Follow the links on specifics and detailed content  that one will need to get up and running with EZ2Cloud.</p>
-
+<p>
+The following section describe action to be performed on a single on a limited group of users. It is best suited to small group of users. 
+</p>
 </div>
-
-<hr>
-
-<h2 id="contents">Contents</h2>
-<table>
-<thead>
-<tr>
-<th>Essential Documentation</th>
-<th>Admin Documentation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="Essentials/index.html">User documentation</a></td>
-<td><a href="ITAdmin/index.html">Admin Guide: Reference for Administrator</a></td>
-</tr>
-<tr>
-<td><a href="Essentials/Concepts/index.html">EZ2Cloud Entitites</a></td>
-<td><a href="ITAdmin/sattelite.html">Install and Configure Sattelite Server</a></td>
-</tr>
-<tr>
-<td><a href="Mobile/index.html">Mobile Devices</a></td>
-<td><a href="ITAdmin/identi.html">Configure Identity Provider</a></td>
-</tr>
-</tbody>
-</table>
-<p><img alt="Image of Sharelabelproject" src="images/overview11.png" /></p></div>
+<p>All the local users accounts information are presented in a table as shown in the follwing image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/UsersManagmentTable.png">. The information can be ordered by the fields: First Name, Last Name, email. And also the information showed in the table can be filtered by Departament, Role and Stauts by click in the name field at the Table Header. 
+Also you can navigate to different pages by click in one this arrows <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonNav.png"></p>
+<h2 id="action-on-users">Action on users</h2>
+<p><img alt="Image of Sharelabelproject" src="images/ManageUserControl.png" /></p>
+<ol>
+<li><strong>Add User</strong> - <p>Local users can be added one at a time by fill the fields showed in the following image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserAdd.png">. An email will be sent to the email address that was provided and after that a user can login.</p></li>
+<li><strong>Edit User</strong> - <p>Local users can be Edit to change a User account. A user with the Role Administrator can change the values of the Users account, filling values in the fields as show in the form on the image <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserEdit.png">. It is not possible to change email address. </p></li>
+<li>
+<p><strong>Disable User</strong> - <p>From the user table select rows that represents the ones you wnat to disable and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonDisable.png">. You will see the following dialog 
+<img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisable.png"> where you must confirm to disable user. If you select multiple users the confirmation dialog will be show all the users selected <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserDisableMulti.png"></p></p>
+</li>
+<li>
+<p><strong>Reset Password</strong> - <p>From the user table select rows that represents the ones you wnat to reset password and then click button <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ButtonReset.png">. You will see the following dialog 
+  <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserReset.png"> where you must confirm the reset user operation. If you select multiple users the confirmation dialog will be show all the users selected 
+     <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUserResetMulti.png"></p></p>
+</li>
+</ol></div>
             </div>
         </div>
 
@@ -173,11 +136,11 @@ EZ2Cloud was designed and implemented to address these issues. It is possible to
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -242,8 +205,3 @@ EZ2Cloud was designed and implemented to address these issues. It is possible to
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2021-07-30 20:35:05.465415+00:00
--->
