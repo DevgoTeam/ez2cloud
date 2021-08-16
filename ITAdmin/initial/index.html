@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Colab - EZ2Cloud Docs</title>
+        <title>Initial Setup - EZ2Cloud Docs</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -41,24 +41,24 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../index.html" class="dropdown-item">End-user</a>
+    <a href="../../Essentials/index.html" class="dropdown-item">End-user</a>
 </li>
                                     
 <li>
-    <a href="../Concepts/index.html" class="dropdown-item">Entities and Concepts</a>
+    <a href="../../Essentials/Concepts/index.html" class="dropdown-item">Entities and Concepts</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">IT Admin and Tech Docs <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../ITAdmin/index.html" class="dropdown-item">Admin Docs</a>
+    <a href="../index.html" class="dropdown-item">Admin Docs</a>
 </li>
                                     
 <li>
-    <a href="../../ITAdmin/initial/index.html" class="dropdown-item">Initial Setup</a>
+    <a href="index.html" class="dropdown-item active">Initial Setup</a>
 </li>
                                 </ul>
                             </li>
@@ -70,6 +70,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../index.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -88,7 +98,27 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#colaborative-work-in-projects" class="nav-link">Colaborative Work in Projects</a>
+            <li class="nav-item" data-level="2"><a href="#initial-configurations" class="nav-link">Initial Configurations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#settings-custumizing" class="nav-link">Settings &amp; Custumizing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#authentication" class="nav-link">Authentication</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#subscription-plans" class="nav-link">Subscription Plans</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#troubleshooting" class="nav-link">Troubleshooting</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -100,28 +130,60 @@
 <p><img alt="Logo EZ2Cloud" src="../../images/ez2cloud2.png" /></p>
 <hr>
 
-<h2 id="colaborative-work-in-projects">Colaborative Work in Projects</h2>
+<h2 id="initial-configurations">Initial Configurations</h2>
+<p>The configuration needed to be done in order to allow users to access the EZ2Cloud started after a Tenant is created. To see more details on how to create a Tenant please refer to <a href="../../Essentials/Concepts/tenant.html">Create Tenant</a></p>
 <div style='text-align: justify;'>
 <p>
-The work each user can perform on a project consist in assign semantic label and ownership label to files and folder of the directory structure as they are represented by the project unit in EZ2Cloud.</p>
-
-<p>The users that have access to a project can label all files and folders the project contains.  
-The process of doing this work may involve not just one but multiple users. They all can perform the assign semantic or ownership label task. By his natures this is a distributed process and also we must consider the collaborative aspects of the tasks. So in EZ2Cloud we implement a collaborative and distributed working area that might involve different users. </p>
-
-
-<p>The collaborative working area is the File Explorer and the main sections are showed in the following image.</p>
-</div>
-
-<p><img alt="File explorer" src="../../images/projects/FileExplorer1.svg" /></p>
-<div style='text-align: justify;'>
-<p>The collaborative work is supported by providing means that allow each user to perform semantic labelling and ownership lalelling. 
+The actual configuration will begin by creating and defining all information that will be used to represents EZ2Cloud users, users roles, labels, projects and other EZ2Cloud entities and concepts. So refer to the next link to specifics of each information item:
 </p>
 </div>
 
 <ol>
-<li>Semantic Labelling - User can drag and drop a semantic label from the list of label at the left side of the File Explorer window to the column named Label. As this is a semantic label each users can assing choose and assign a label that is more accurate to classify the file or folder.</li>
-<li>Ownership Labelling - user can perform ownership labelling by drag and drop a user label from the list of users at the left side of the File Explorer window to the column named Owner or Deputy Owner. This will results in set the Owner or deputy owner of an item. Each item (file or folder) can have at most one user as its owner and one user as deputy owner.</li>
-</ol></div>
+<li>
+<p><a href="./ManageUsers.md"><strong>User Managment</strong></a><br />
+Find here all the detils related with User Managment functionalities. Create, Remove, Disable, Create multiple users from CSV files. Managing Users Roles and Configure and Setup Third-party Authentication. Theese are a summary of the main features and in order to have your users ready to use EZ2Cloud. <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageUsers.png"> </p>
+</li>
+<li>
+<p><a href="sattelite.md"><strong>Satelite Servers</strong></a>
+Following the initial Tenant configuration process, it is necessary to create the data elements for later use and installation of a Sattelite Server.<img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageSatIni.png"> </p>
+</li>
+<li>
+<p><a href="ManageLabels.md"><strong>Labels</strong></a>
+EZ2Cloud users will be using Semantic Labels or just Labels to tag folder and files. These Semantic Labels are defined in the specific context of an organization, department or bussiness unit as a requirment for each project when configure labels that can be used. The labels are related to a Tenant's organizational and work context so they must be created and configured optinally in multiple languages and refering to  terms that represent Tenant's business entities, concepts, and data. <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManagLabels.png"> </p>
+</li>
+<li>
+<p><a href="./ManageProjects.md"><strong>Projects</strong></a>
+The main unit of information is a project. The concept of project as it is used in the context of EZ2Cloud brings together several elements that will serve as a basis for the collaborative work environment. Find here how to manage projects and bring them to the state ready to be used in EZ2Cloud. <img style="margin-top: 10px; margin-bottom: 10px; padding: 10px; border: 1px solid black" src="./images/ManageProjects.png"> </p>
+</li>
+</ol>
+<h2 id="settings-custumizing">Settings &amp; Custumizing</h2>
+<div style='text-align: justify;'> 
+<p><img  style="float: left;margin:10px;padding: 10px;border: 1px solid black" src="./images/settings/menu.png"> Ec2Cloud can be fully customized to reflect the corporate image of the Tenant's company or organization. There is then the possibility of defining a set of settings for this purpose. By default the software uses the settings defined by Devgo but you can change and adapt it as you wish.Also you change settings that are related with other Tenant information as language, Timezone. After click the Settings main menu option you will see the Settings sub-menu as depicted in the image.</p>
+Click one of the following links to find more on how to change settings and apply your own costumization that will be used by all the Tenant users.
+</div>
+
+<ol>
+<li><a href="./Corporate.md"><strong>Theme Custumization</strong></a> </li>
+<li><a href="./GeneralSettings.md"><strong>General Settings</strong></a></li>
+</ol>
+<h2 id="authentication">Authentication</h2>
+<div style='text-align: justify;'> 
+<p>
+</p>
+</div>
+
+<h2 id="subscription-plans">Subscription Plans</h2>
+<div style='text-align: justify;'> 
+<p>
+EZ2Cloud has differents plans that will differentiate the workload that a tenant can support. To start using the platform, you can do it for free, but for better performance, you can upgrade your plan to a professional or business plan. Here you will have all the information regarding plans, payments and how to manage the subscription of a plan as well as details regarding payment methods that EZ2Cloud supports.</p>
+</div>
+
+<p><a href="./plans.md">Click here</a> to more details about EZ2Cloud plans.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<div style='text-align: justify;'> 
+<p>
+</p>
+</div></div>
             </div>
         </div>
 
